@@ -14,14 +14,7 @@ try:
             break
         else:
             print ("Try again!")
-
-    # digit1 = num // 100_000
-    # digit2 = num // 10_000 % 10
-    # digit3 = num // 1_000 % 10
-    # digit4 = num // 100 % 10
-    # digit5 = num // 10 % 10
-    # digit6 = num % 10
-
+    
     sum1 = 0
     sum2 = 0
 

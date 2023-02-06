@@ -4,6 +4,7 @@
 number = None
 array = []
 sum = 0
+sum2 = 0
 
 try:
     while True:
@@ -27,5 +28,12 @@ try:
         sum += i
     print (sum)
 
+    # Способ №3
+    while number != 0:
+        sum2 += number % 10
+        number //= 10
+    print (sum2)
+
+    # Способ №
 except:
     print("I said number!!!")
